@@ -22,8 +22,8 @@ File.open("url_#{DateTime.now.to_s}.txt",'w') do |f|
     puts file_data.inspect
     output = "#{file_link['title']}~#{file_link['href']}~#{file_data.text}"
     puts output
-    # puts output
-    # f.puts output
+    puts output
+    f.puts output
   end
 end
 
